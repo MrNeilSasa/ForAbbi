@@ -47,10 +47,94 @@
 			font-size: 18px;
 			margin-bottom: 20px;
 		}
+		.reveal-container {
+			text-align: center;
+			margin-top: 30px;
+		}
+
+		#revealBtn {
+			font-size: 16px;
+			padding: 10px 20px;
+			background-color: #ff8c00;
+			color: white;
+			border: none;
+			cursor: pointer;
+			border-radius: 5px;
+		}
+
+		#proposalContent {
+			display: none;
+			margin-top: 20px;
+		}
 	</style>
 </head>
 <body>
 	<h1>I'm Going to Miss You but I Wanted to Leave You with Something Nice.</h1>
+	<div class="reveal-container">
+		<button id="revealBtn">Click here to reveal</button>
+		<div id="proposalContent">
+			<p> <h2>Title: Our Journey of 7 and 17</h2>
+
+				In 2019's first year, destiny brought us close,
+				Yet silent we remained, the unspoken prose.
+				This year, fate's hand intervened once more,
+				A new chapter unfolding, an unlocked door.
+				
+				We hesitated, with caution, we took a chance,
+				Fearful of love's dance, a fragile romance.
+				But on Valentine's, the spark ignited bright,
+				Two hearts intertwined, taking flight.
+				
+				In March, intimacy like a gentle breeze,
+				Our souls entwined, our worries put at ease.
+				April to May, a rocky road we faced,
+				Yet, in your eyes, my home, my safe place.
+				
+				Then May came, a new journey's start,
+				You ventured afar, though not from my heart.
+				Traveling, working, a world unknown,
+				In spirit, together, never truly alone.
+				
+				Your favorite numbers, 7 and 17, our guiding star,
+				Symbolic of love, our connection from afar.
+				As June passes by, I'm inspired to say,
+				Today, my love, I want us official in every way.
+				
+				In the beauty of 7 and 17, our love does bloom,
+				A tapestry woven, a shared destiny's loom.
+				Through ups and downs, we've grown strong,
+				And now, my love, to you, I belong.
+				
+				So here and now, on this June 17th,
+				With heartfelt words, my love I present.
+				Let's make this journey official and true,
+				With you by my side, there's nothing we can't do.
+				
+				Together we'll face life's joys and sorrows,
+				With love as our shield, we'll conquer tomorrows.
+				No distance or time can keep us apart,
+				For you, my love, have captured my heart.
+				
+				Today, I ask, with love so pure,
+				Will you be my girlfriend, my love, my cure?
+				With you, my dear, I'm forever blessed,
+				In the tapestry of love, together we'll rest.
+				
+				With all my heart and soul, I pray,
+				You'll say yes and join me on this pathway.
+				Our journey of 7 and 17, intertwined,
+				Hand in hand, our love redefined.</p>
+			<p>Memory lane: I need to add picutres here but I dont have time is poem to a very long while.</p>
+			<p>Shared interests: I plan to update this page for our aniversaries. </p>
+			<p>Future plans: I want to make a feature were we can both update this page but that will take a long time to figure out as I would make an account and everything
+				but for now I will just add these as time goes along
+			</p>
+			<p>So this is kinda incompelte babes. This whole work thing slowed down my plans but its the 17th day of the 7 month so I figured now 
+				would be the best time to tell you.
+			</p>
+		</div>
+	</div>
+	
 	<div class="container">
 		<div class="card">
 			<img src="VID-20230326-WA0003_1.gif" alt="GIF 1">
@@ -83,6 +167,20 @@
 		</div>
 	</div>
 </body>
+
+<script>
+
+	document.addEventListener('DOMContentLoaded', function () {
+		const revealBtn = document.getElementById('revealBtn');
+		const proposalContent = document.getElementById('proposalContent');
+	
+		revealBtn.addEventListener('click', function () {
+			// Hide the button and reveal the content
+			revealBtn.style.display = 'none';
+			proposalContent.style.display = 'block';
+		});
+	});
+</script>	
 
 </html>
 
